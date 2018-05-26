@@ -1,0 +1,50 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, #37c8c0 , #cb3484); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+input{
+    margin: 50px 30px 80px;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0);
+    -webkit-appearance: none; 
+  
+  }
+  
+input::-webkit-color-swatch-wrapper {
+    padding: 0; 
+}
+input::-webkit-color-swatch {
+    border: 0px solid;
+    border-radius: 100%;
+    border-width: 3px;
+    border-color: rgba(0,0,0,0.5);
+    outline: none;
+    -webkit-appearance: none;
+}
